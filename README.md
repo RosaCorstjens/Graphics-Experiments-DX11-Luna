@@ -11,8 +11,10 @@ A series of experiments exploring how to render and manipulate a pyramid mesh wi
 - **Interactive**: uses inputs to change parameters used to render the pyramid (height, radius, amount of sides).
 - **GeometryShader**: same setup but generated and expanded using a geometry shader. 
 
-![Pyramid Top](PyramidGenerator/Screenshots/pyramid-top.png)
-![Pyramid Bottom](PyramidGenerator/Screenshots/pyramid-bottom.png)
+<p float="left">
+  <img src="PyramidGenerator/Screenshots/pyramid-top.png" width="300" />
+  <img src="PyramidGenerator/Screenshots/pyramid-bottom.png" width="300" />
+</p>
 
 ### [DynamicTexturedPhone](./DynamicTexturedPhone)
 Experiments in texturing a phone-like mesh, progressing from static to dynamic render-to-texture workflows. Explores multi-texturing, UV mapping, and render-to-texture techniques on a small mesh.
@@ -20,15 +22,19 @@ Experiments in texturing a phone-like mesh, progressing from static to dynamic r
 - **ScreenUV**: applies a second texture with multi-texturing and custom UVs, which is mapped to the phone screen as if the phone shows a picture.  
 - **CameraRenderTexture**: renders the scene to a texture displayed on the phone screen, using render-to-texture techniques.
 
-![Textured Phone](DynamicTexturedPhone/Screenshots/textured-phone.png)
-![With Screen](DynamicTexturedPhone/Screenshots/textured-phone-screen.png)
-![With Render-to-Texture](DynamicTexturedPhone/Screenshots/textured-phone-render-texture-screen.png)
+<p float="left">
+  <img src="DynamicTexturedPhone/Screenshots/textured-phone.png" width="300" />
+  <img src="DynamicTexturedPhone/Screenshots/textured-phone-screen.png" width="300" />
+  <img src="DynamicTexturedPhone/Screenshots/textured-phone-render-texture-screen.png" width="300" />
+</p>
 
 ### [Fresnel](./Fresnel)
 Custom implementation of a fresnel shader, calculating the pixel color based on the normal of the pixel and the camera and parameters to control colors and intensities.
 
-![Black and White](Fresnel/Screenshots/black-and-white.png)
-![Colorful](Fresnel/Screenshots/colorful.png)
+<p float="left">
+  <img src="Fresnel/Screenshots/black-and-white.png" width="300" />
+  <img src="Fresnel/Screenshots/colorful.png" width="300" />
+</p>
 
 ### [LightingExperiments](./LightingExperiments)
 A collection of small interactive lighting experiments, exploring basic functionality of point and spot lights. 
@@ -36,20 +42,26 @@ A collection of small interactive lighting experiments, exploring basic function
 - **SpotLightLaser**: a spotlight attached to the camera shines on the environment much like a laser.
 - **PointLightUnderwater**: simulates a point light on the bottom of a body of water. Uses a lightmap to simulate water distortion effects.    
 
-![Point Light Wand](LightingExperiments/Screenshots/point-light-wand.png)
-![Spot Light Laser](LightingExperiments/Screenshots/spot-light-laser.png)
-![Point Light Underwater](LightingExperiments/Screenshots/point-light-underwater.png)
+<p float="left">
+  <img src="LightingExperiments/Screenshots/point-light-wand.png" width="300" />
+  <img src="LightingExperiments/Screenshots/spot-light-laser.png" width="300" />
+  <img src="LightingExperiments/Screenshots/point-light-underwater.png" width="300" />
+</p>
 
 ### [ReflectiveChrome](./ReflectiveChrome)
 Custom implementation of a real-time reflective surface using dynamic cube mapping, with dynamic reflectiveness based on user inputs. 
 
-![Reflective Chrome Mat](ReflectiveChrome/Screenshots/reflective-chrome-mat.png)
-![Reflective Chrome Shiny](ReflectiveChrome/Screenshots/reflective-chrome-shiny.png)
+<p float="left">
+  <img src="ReflectiveChrome/Screenshots/reflective-chrome-mat.png" width="300" />
+  <img src="ReflectiveChrome/Screenshots/reflective-chrome-shiny.png" width="300" />
+</p>
 
 ### [TranslateShadertoyToDX11](./TranslateShadertoyToDX11)
 An excersise in translating ShaderToy shaders to DirectX 11. Shader [isovalues 2](https://www.shadertoy.com/view/MdfcRS) was translated from GLSL to HLSL, taking the development environment into account.  
 
-![TranslateShadertoyToDX11](TranslateShadertoyToDX11/Screenshots/colorful-noise.png)
+<p float="left">
+  <img src="TranslateShadertoyToDX11/Screenshots/colorful-noise.png" width="300" />
+</p>
 
 ---
 
