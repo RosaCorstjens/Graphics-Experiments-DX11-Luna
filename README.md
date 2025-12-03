@@ -1,5 +1,5 @@
 # Graphics Experiments - DirectX 11, Luna 
-A collection of small real-time rendering experiments built with DirectX 11 (Luna framework). The goal of this repo is to have a sandbox to explore how modern rendering works under the hood: meshes, textures, shaders, lighting, and the GPU pipeline. Each project is self-contained and showcases a specific graphics concept or workflow.
+A collection of small real-time rendering experiments built with DirectX 11, Luna framework. The goal of this repo is to have a sandbox to explore how rendering works under the hood: meshes, textures, shaders, lighting, and the GPU pipeline. Each project is self-contained and showcases a specific graphics concept or workflow.
 
 ---
 
@@ -23,17 +23,17 @@ Experiments in texturing a phone-like mesh, progressing from static to dynamic r
 - **CameraRenderTexture**: renders the scene to a texture displayed on the phone screen, using render-to-texture techniques.
 
 <p float="left">
-  <img src="DynamicTexturedPhone/Screenshots/textured-phone.png" width="300" />
-  <img src="DynamicTexturedPhone/Screenshots/textured-phone-screen.png" width="300" />
-  <img src="DynamicTexturedPhone/Screenshots/textured-phone-render-texture-screen.png" width="300" />
+  <img src="DynamicTexturedPhone/Screenshots/textured-phone.png" width="200" />
+  <img src="DynamicTexturedPhone/Screenshots/textured-phone-screen.png" width="200" />
+  <img src="DynamicTexturedPhone/Screenshots/textured-phone-render-texture-screen.png" width="200" />
 </p>
 
 ### [Fresnel](./Fresnel)
 Custom implementation of a fresnel shader, calculating the pixel color based on the normal of the pixel and the camera and parameters to control colors and intensities.
 
 <p float="left">
-  <img src="Fresnel/Screenshots/black-and-white.png" width="300" />
-  <img src="Fresnel/Screenshots/colorful.png" width="300" />
+  <img src="Fresnel/Screenshots/black-and-white.png" width="200" />
+  <img src="Fresnel/Screenshots/colorful.png" width="200" />
 </p>
 
 ### [LightingExperiments](./LightingExperiments)
@@ -43,24 +43,24 @@ A collection of small interactive lighting experiments, exploring basic function
 - **PointLightUnderwater**: simulates a point light on the bottom of a body of water. Uses a lightmap to simulate water distortion effects.    
 
 <p float="left">
-  <img src="LightingExperiments/Screenshots/point-light-wand.png" width="300" />
-  <img src="LightingExperiments/Screenshots/spot-light-laser.png" width="300" />
-  <img src="LightingExperiments/Screenshots/point-light-underwater.png" width="300" />
+  <img src="LightingExperiments/Screenshots/point-light-wand.png" width="200" />
+  <img src="LightingExperiments/Screenshots/spot-light-laser.png" width="200" />
+  <img src="LightingExperiments/Screenshots/point-light-underwater.png" width="200" />
 </p>
 
 ### [ReflectiveChrome](./ReflectiveChrome)
 Custom implementation of a real-time reflective surface using dynamic cube mapping, with dynamic reflectiveness based on user inputs. 
 
 <p float="left">
-  <img src="ReflectiveChrome/Screenshots/reflective-chrome-mat.png" width="300" />
-  <img src="ReflectiveChrome/Screenshots/reflective-chrome-shiny.png" width="300" />
+  <img src="ReflectiveChrome/Screenshots/reflective-chrome-mat.png" width="200" />
+  <img src="ReflectiveChrome/Screenshots/reflective-chrome-shiny.png" width="200" />
 </p>
 
 ### [TranslateShadertoyToDX11](./TranslateShadertoyToDX11)
 An excersise in translating ShaderToy shaders to DirectX 11. Shader [isovalues 2](https://www.shadertoy.com/view/MdfcRS) was translated from GLSL to HLSL, taking the development environment into account.  
 
 <p float="left">
-  <img src="TranslateShadertoyToDX11/Screenshots/colorful-noise.png" width="300" />
+  <img src="TranslateShadertoyToDX11/Screenshots/colorful-noise.png" width="200" />
 </p>
 
 ---
@@ -81,6 +81,7 @@ Open the project folder in Visual Studio, configure include/lib paths for Luna a
 
 ## Notes
 
-- Screenshots are provided for quick previews. For full interaction, run the demos
+- ⚠️ This project **cannot fully build** on modern systems due to the requirements for VS2010, DX11 SDK and Luna. The pre-built Luna libraries are not compatible with VS2022+. 
+- Screenshots are provided for quick previews. Sadly, builds cannot be provided. 
 - This repository is used as a sandbox environment to expirement with real-time graphics programming, to showcase my work and to reference examples in conversation or lectures. 
 
