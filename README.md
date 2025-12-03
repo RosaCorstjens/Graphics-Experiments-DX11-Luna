@@ -1,5 +1,5 @@
-# Graphics Experiments - DirectX 11, Luna 
-A collection of small real-time rendering experiments built with DirectX 11, Luna framework. The goal of this repo is to have a sandbox to explore how rendering works under the hood: meshes, textures, shaders, lighting, and the GPU pipeline. Each project is self-contained and showcases a specific graphics concept or workflow.
+# Graphics Experiments - DirectX 11, Luna (Legacy)
+A collection of small real-time rendering experiments built with DirectX 11, Luna framework (a teaching framework used in Frank Luna's DX 11 book). The goal of this repo is to have a sandbox to explore how rendering works under the hood: meshes, textures, shaders, lighting, and the GPU pipeline, from scratch and manually. Each project is self-contained and showcases a specific graphics concept or workflow.
 
 ---
 
@@ -57,7 +57,7 @@ Custom implementation of a real-time reflective surface using dynamic cube mappi
 </p>
 
 ### [TranslateShadertoyToDX11](./TranslateShadertoyToDX11)
-An excersise in translating ShaderToy shaders to DirectX 11. Shader [isovalues 2](https://www.shadertoy.com/view/MdfcRS) was translated from GLSL to HLSL, taking the development environment into account.  
+An excercise in translating ShaderToy shaders to DirectX 11. Shader [isovalues 2](https://www.shadertoy.com/view/MdfcRS) was translated from GLSL to HLSL, adapted to the DirectX 11 development environment.  
 
 <p float="left">
   <img src="TranslateShadertoyToDX11/Screenshots/colorful-noise.png" width="200" />
@@ -67,7 +67,7 @@ An excersise in translating ShaderToy shaders to DirectX 11. Shader [isovalues 2
 
 ## Notes
 
-- ⚠️ This project **cannot fully build** on modern systems due to the requirements for VS2010, DX11 SDK and Luna. The pre-built Luna libraries are not compatible with VS2022+. 
+- ⚠️ This project **cannot be built** on modern systems due to the requirements for VS2010, DX11 SDK and Luna. The pre-built Luna libraries are not compatible with VS2022+. 
 - Screenshots are provided for quick previews. Sadly, builds cannot be provided. 
-- This repository is used as a sandbox environment to expirement with real-time graphics programming, to showcase my work and to reference examples in conversation or lectures. 
+- This repository is used as a sandbox environment to experiment with real-time graphics programming, to showcase my work and to reference examples in conversation or lectures. 
 
