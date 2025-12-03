@@ -1,0 +1,15 @@
+<Project>
+	<PropertyGroup>
+		<RepoRootDir>$(MSBuildThisFileDirectory)</RepoRootDir>
+	</PropertyGroup>
+
+	<ItemDefinitionGroup>
+		<ClCompile>
+			<AdditionalIncludeDirectories>$(RepoRootDir)Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ClCompile>
+
+		<Link>
+			<AdditionalLibraryDirectories>$(RepoRootDir)Common\$(PlatformTarget);$(RepoRootDir)Common;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+		</Link>
+	</ItemDefinitionGroup>
+</Project>
