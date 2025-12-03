@@ -65,20 +65,6 @@ An excersise in translating ShaderToy shaders to DirectX 11. Shader [isovalues 2
 
 ---
 
-## How to Run
-
-These are Win32 C++ DirectX 11 projects built with the Luna framework.  
-To run them locally, you need:
-- Windows 10+  
-- Visual Studio with “Desktop development with C++” workload  
-- Luna framework installed (headers + libraries)  
-- DirectX 11 SDK 
-- Project assets (textures, meshes, shaders)
-
-Open the project folder in Visual Studio, configure include/lib paths for Luna and DirectX if needed, then build and run.
-
----
-
 ## Notes
 
 - ⚠️ This project **cannot fully build** on modern systems due to the requirements for VS2010, DX11 SDK and Luna. The pre-built Luna libraries are not compatible with VS2022+. 
