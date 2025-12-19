@@ -63,6 +63,54 @@ An excercise in translating ShaderToy shaders to DirectX 11. Shader [isovalues 2
   <img src="TranslateShadertoyToDX11/Screenshots/colorful-noise.png" width="200" />
 </p>
 
+### [BloomUFO](./BloomUFO)
+An experiment focused on implementing a post-processing bloom effect in DirectX 11. A bright, emissive UFO light source is extracted, blurred, and recombined with the original scene to create a glowing effect. Demonstrates render-to-texture workflows, post-processing pipelines, and HDR-style light handling.
+
+- **Bright Pass**: isolates high-intensity pixels from the scene.
+- **Blur**: applies multi-pass blurring to the bright areas.
+- **Composite**: blends the blurred result back onto the original render.
+
+<p float="left">
+  <img src="BloomUFO/Screenshots/bloom-ufo-1.png" width="200" />
+  <img src="BloomUFO/Screenshots/bloom-ufo-2.png" width="200" />
+</p>
+
+### [TerrainEnvironment](./TerrainEnvironment)
+Terrain rendering, combined with a skybox for environmental context. The terrain shader blends multiple ground textures smoothly depending on the height map. Explores terrain shaders, texture sampling strategies, and environment rendering.
+
+- **Heightmap Terrain**: generates terrain geometry from a height map.
+- **Texture Blending**: blends materials (e.g. grass, rock, snow) based on elevation.
+- **Skybox**: use of an environment cube map to frame the scene.
+
+<p float="left">
+  <img src="TerrainEnvironment/Screenshots/terrain-1.png" width="200" />
+  <img src="TerrainEnvironment/Screenshots/terrain-2.png" width="200" />
+</p>
+
+### [ToonShader](./ToonShader)
+A stylized rendering experiment combining edge detection with simple toon lighting. Object outlines are extracted using a screen-space edge detection pass and rendered on top of a flat-lit scene. Demonstrates non-photorealistic rendering techniques and multi-pass rendering.
+
+- **Toon Lighting**: uses stepped lighting for a non-photorealistic look.
+- **Edge Detection**: detects depth and normal discontinuities in screen space.
+- **Line Rendering**: draws clean outlines over the final image.
+
+<p float="left">
+  <img src="ToonShader/Screenshots/toon-1.png" width="200" />
+  <img src="ToonShader/Screenshots/toon-2.png" width="200" />
+</p>
+
+### [Godrays](./Godrays)
+Implementation of volumetric light scattering (“god rays”) using a directional light representing the sun. Light shafts are computed in screen space and blended additively into the scene. Explores volumetric lighting approximations and post-processing effects.
+
+- **Light Mask**: determines occlusion between the camera and the sun direction.
+- **Radial Sampling**: accumulates scattered light along the light direction.
+- **Directional Sun**: ties the effect to a controllable directional light source.
+
+<p float="left">
+  <img src="Godrays/Screenshots/godrays-1.png" width="200" />
+  <img src="Godrays/Screenshots/godrays-2.png" width="200" />
+</p>
+
 ---
 
 ## Notes
