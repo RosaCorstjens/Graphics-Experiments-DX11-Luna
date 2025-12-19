@@ -36,6 +36,7 @@
 *.pdb
 *.obj
 *.vs
+*.db
 Debug/
 Release/
 

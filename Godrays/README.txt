@@ -1,0 +1,2 @@
+This backup contains the original effect files used for the GodRay effect with terrain. 
+Due to the many different effects needed for terrain rendering (tessalation, layered texturing e.d.) I choose to remove them from the project while refactoring.
