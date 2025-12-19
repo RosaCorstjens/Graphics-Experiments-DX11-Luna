@@ -71,8 +71,8 @@ An experiment focused on implementing a post-processing bloom effect in DirectX 
 - **Composite**: blends the blurred result back onto the original render.
 
 <p float="left">
-  <img src="BloomUFO/Screenshots/bloom-ufo-1.png" width="200" />
-  <img src="BloomUFO/Screenshots/bloom-ufo-2.png" width="200" />
+  <img src="BloomUFO/Screenshots/bloom-ufo-1.PNG" width="200" />
+  <img src="BloomUFO/Screenshots/bloom-ufo-2.PNG" width="200" />
 </p>
 
 ### [TerrainEnvironment](./TerrainEnvironment)
@@ -83,8 +83,8 @@ Terrain rendering, combined with a skybox for environmental context. The terrain
 - **Skybox**: use of an environment cube map to frame the scene.
 
 <p float="left">
-  <img src="TerrainEnvironment/Screenshots/terrain-1.png" width="200" />
-  <img src="TerrainEnvironment/Screenshots/terrain-2.png" width="200" />
+  <img src="TerrainEnvironment/Screenshots/terrain-1.PNG" width="200" />
+  <img src="TerrainEnvironment/Screenshots/terrain-2.PNG" width="200" />
 </p>
 
 ### [ToonShader](./ToonShader)
@@ -95,8 +95,8 @@ A stylized rendering experiment combining edge detection with simple toon lighti
 - **Line Rendering**: draws clean outlines over the final image.
 
 <p float="left">
-  <img src="ToonShader/Screenshots/toon-1.png" width="200" />
-  <img src="ToonShader/Screenshots/toon-2.png" width="200" />
+  <img src="ToonShader/Screenshots/toon-1.PNG" width="200" />
+  <img src="ToonShader/Screenshots/toon-2.PNG" width="200" />
 </p>
 
 ### [Godrays](./Godrays)
@@ -107,8 +107,8 @@ Implementation of volumetric light scattering (“god rays”) using a direction
 - **Directional Sun**: ties the effect to a controllable directional light source.
 
 <p float="left">
-  <img src="Godrays/Screenshots/godrays-1.png" width="200" />
-  <img src="Godrays/Screenshots/godrays-2.png" width="200" />
+  <img src="Godrays/Screenshots/godrays-1.PNG" width="200" />
+  <img src="Godrays/Screenshots/godrays-2.PNG" width="200" />
 </p>
 
 ---
